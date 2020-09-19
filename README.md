@@ -1,23 +1,23 @@
 ## Installation
 You can clone this repository OR download the .zip
 
-When unzipping, it is necessary to run `composer` to install the dependencies and generate * autoload *.
+When unzipping, it is necessary to run `composer` to install the dependencies and generate ***autoload***.
 
-Go to the project folder, through the **prompt / terminal** and execute:
+Go to the project folder, through the ***prompt / terminal*** and execute:
 > composer install
 
 Then just wait.
 
 ## Configuration
-All `configuration` and application files are inside the * src * folder.
+All `configuration` and application files are inside the ***src*** folder.
 
-The Database and URL settings are in the * src / Config.php * file
+The Database and URL settings are in the ***src / Config.php*** file
 
-It is important to correctly configure the * BASE_DIR * constant:
+It is important to correctly configure the ***BASE_DIR*** constant:
 > const BASE_DIR = '/**ProjectFolder**/public';
 
 ## Usage
-You must access the project's *public* folder.
+You must access the project's `public` folder.
 
 Ideally, create a specific ***alias*** on the server that points directly to the *public* folder.
 
