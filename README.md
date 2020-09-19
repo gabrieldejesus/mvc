@@ -1,7 +1,7 @@
 ## Installation
 You can clone this repository OR download the .zip
 
-When unzipping, it is necessary to run `** composer **` to install the dependencies and generate * autoload *.
+When unzipping, it is necessary to run `composer` to install the dependencies and generate * autoload *.
 
 Go to the project folder, through the * prompt / terminal * and execute:
 > composer install
@@ -9,7 +9,7 @@ Go to the project folder, through the * prompt / terminal * and execute:
 Then just wait.
 
 ## Configuration
-All `** configuration **` and application files are inside the * src * folder.
+All `configuration` and application files are inside the * src * folder.
 
 The Database and URL settings are in the * src / Config.php * file
 
