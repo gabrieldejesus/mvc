@@ -3,7 +3,7 @@ You can clone this repository OR download the .zip
 
 When unzipping, it is necessary to run `composer` to install the dependencies and generate * autoload *.
 
-Go to the project folder, through the * prompt / terminal * and execute:
+Go to the project folder, through the **prompt / terminal** and execute:
 > composer install
 
 Then just wait.
