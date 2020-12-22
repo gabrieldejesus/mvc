@@ -1,28 +1,27 @@
-_English_
+# MVC
 
-## 💻 Installation
-You can clone this repository OR download the .zip
+🧱 Structure MVC in PHP
 
-![](clone.png)
+<p align="left">
+  <img alt="PRs welcome!" src="https://img.shields.io/static/v1?label=PRs&message=WELCOME&style=for-the-badge&color=4A90E2&labelColor=222222" />
+     
+   <img alt="Stars" src="https://img.shields.io/github/stars/gabrieldejesus/mvc?color=4A90E2&label=STARS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 
-![](clone-zip.png)
+   <img alt="Forks" src="https://img.shields.io/github/forks/gabrieldejesus/mvc?color=4A90E2&label=FORKS&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 
-When unzipping, it is necessary to run `composer` to install the dependencies and generate ***autoload***.
+   <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/mvc?color=4A90E2&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 
-Go to the project folder, through the ***prompt / terminal*** and execute:
-> composer install
+   <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/mvc?color=4A90E2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 
-Then just wait.
+  <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=4A90E2&labelColor=222222" />
+  </a>
+</p>
 
-## 🛠 Configuration
-All `configuration` and application files are inside the ***src*** folder.
+## 📈 Example of use
 
-The Database and URL settings are in the ***src / Config.php*** file
+With this structure it is possible to create sites and systems with an MVC structure (Model-View-Controller)
 
-It is important to correctly configure the ***BASE_DIR*** constant:
-> const BASE_DIR = '/**ProjectFolder**/public';
-
-## 📈 Example usage
 You must access the project's `public` folder.
 
 Ideally, create a specific ***alias*** on the server that points directly to the *public* folder.
@@ -38,92 +37,62 @@ class User extends Model {
 }
 ```
 
-## 🗃 Release history
+## 🛠 Getting started
 
-* 0.0.2
-    * Finished project and studying the possibility of adding `new resources`
-* 0.0.1
-    * Work in `progress`
+Windows:
 
-## 📝 Meta
+You can clone the repository through CMD (Command Prompt) just by typing:
 
-Gabriel de Jesus – (https://www.gabrieldesenvolvedor.com/) – oi@gabrieldesenvolvedor.com
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-[https://github.com/devgabrieldejesus/mvc](https://github.com/devgabrieldejesus/)
-
-## 🚀 Contributing
-
-1. Fork it (<https://github.com/devgabrieldejesus/mvc/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
----
-
-_Português_
-
-## 💻 Instalação
-Você pode clonar este repositório OU baixar o .zip
-
-![](clone.png)
-
-![](clone-zip.png)
-
-Ao descompactar, é necessário executar `composer` para instalar as dependências e gerar *** autoload ***.
-
-Vá para a pasta do projeto, através do ***prompt / terminal*** e execute:
-> composer install
-
-Então espere.
-
-## 🛠 Configuração
-
-Todos os arquivos de `configuração` e aplicativos estão dentro da pasta *** src ***.
-
-As configurações de banco de dados e URL estão no arquivo *** src / Config.php ***
-
-É importante configurar corretamente a constante ***BASE_DIR***:
-
-> const BASE_DIR = '/** ProjectFolder** / public';
-
-## 📈 Exemplo de uso
-Você deve acessar a pasta `public` do projeto.
-
-O ideal é criar um ***alias*** específico no servidor que aponte diretamente para a pasta *pública*.
-
-### MODELO de modelo
-```php
-<?php
-namespace src\models;
-use \core\Model;
-
-class User extends Model {
-
-}
+```sh
+git clone https://github.com/gabrieldejesus/mvc
 ```
 
-## 🗃 Histórico de lançamento
+or download the zip from the green button at the beginning of the repository
 
-* 0.0.2
-     * Projeto finalizado e estudando a possibilidade de adicionar `novos recursos`
-* 0.0.1
-     * Trabalho em `progresso`
+<img src="https://i.ibb.co/3mLnKMH/clone.png" alt="Download zip" border="0">
+
+<img src="https://i.ibb.co/3M5CXKm/clone-zip.png" alt="Download zip" border="0">
+
+## 💻 Configuration for development
+
+When unzipping, it is necessary to run `composer` to install the dependencies and generate ***autoload***.
+
+Go to the project folder, through the ***prompt / terminal*** and execute:
+> composer install
+
+Then just wait.
+
+All `configuration` and application files are inside the ***src*** folder.
+
+The Database and URL settings are in the ***src / Config.php*** file
+
+It is important to correctly configure the ***BASE_DIR*** constant:
+> const BASE_DIR = '/**ProjectFolder**/public';
+
+## 🗃 Release history
+
+- 0.1.0
+  - Project finalized and studying the possibility of adding new resources
+  - The first suitable lauch
+- 0.0.1
+  - Work in progress
 
 ## 📝 Meta
 
-Gabriel de Jesus – (https://www.gabrieldesenvolvedor.com/) – oi@gabrieldesenvolvedor.com
+Gabriel de Jesus – [My portfolio](https://gabrieldesenvolvedor.com) – devgabrieldejesus@gmail.com
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-[https://github.com/devgabrieldejesus/mvc](https://github.com/devgabrieldejesus/)
+[https://github.com/gabrieldejesus/mvc](https://github.com/gabrieldejesus)
 
-## 🚀 Contribuição
+## 🚀 Contribution
 
-1. Fork it (<https://github.com/devgabrieldejesus/mvc/fork>)
-2. Crie seu branch de recurso (`git checkout -b feature / fooBar`)
-3. Faça commit de suas alterações (`git commit -am 'Add some fooBar'`)
-4. Empurre para o branch (`git push origin feature / fooBar`)
-5. Crie uma nova solicitação pull
+1. Make the _fork_ of the project (<https://github.com/gabrieldejesus/mvc/fork>)
+2. Create a _branch_ for your modification (`git checkout -b my-new-resource`)
+3. Do _commit_ (`git commit -am 'Adding a new resource ...'`)
+4. _Push_ (`git push origin my-new-feature`)
+5. Create a new _Pull Request_
+
+**After your pull request is merged**, you can safely delete your branch.
+
+---
